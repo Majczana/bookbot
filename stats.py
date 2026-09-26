@@ -21,3 +21,5 @@ def chars_dict_to_sorted_list(char_counts: dict[str, int]):
     for i in char_counts:
         list_char_counts.append((i, char_counts[i]))
     return sorted(list_char_counts, reverse=True, key=sort_on)
+
+
